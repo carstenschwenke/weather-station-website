@@ -1,0 +1,56 @@
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Optional theme -->
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Custom styles for this template -->
+		<link href="css/main.css" rel="stylesheet" />
+		<!-- Custom JavaScript for this template-->
+		<script src="js/main.js"></script>
+		<title>Temperatur</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Temperatur</h3>
+						</div>
+						<div id="temprature" class="panel-body">{{ temperature }} °C</div>
+					</div>
+					<div class="panel panel-default">	
+						<div class="panel-heading">
+							<h3 class="panel-title">Luftfeuchtigkeit</h3>
+						</div>
+						<div id="humidity" class="panel-body">{{ humidity }} %</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-default">	
+						<div class="panel-heading">
+							<h3 class="panel-title">Luftdruck</h3>
+						</div>
+						<div id="humidity" class="panel-body">{{ air_pressure }} mb</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Illuminanz</h3>
+						</div>
+						<div id="temprature" class="panel-body">{{ illuminance }} lx</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

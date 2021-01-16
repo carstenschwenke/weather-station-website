@@ -1,0 +1,10 @@
+/target/
+/.settings/
+/Brick*
+/Example*
+/.classpath
+/.project
+.pydevproject
+flask
+tinkerforge
+/index.pyc
